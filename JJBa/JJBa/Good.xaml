@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="JJBa.Good"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:JJBa"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="600" Loaded="UserControl_Loaded" MinWidth="600" MinHeight="500">
+    <Grid x:Name="Mtop" Background="White">
+        <Label x:Name="L1" Content="Добро пожаловать, " HorizontalAlignment="Left" Margin="-119,116,0,0" VerticalAlignment="Top" Width="0" FontSize="22"/>
+        <Button x:Name="btn1" Content="Управление коэффициентами" Margin="100,145,100,295" VerticalAlignment="Center" Height="60" FontSize="24" Click="Button_Click"  RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" Width="400"/>
+        <Button x:Name="btn2" Content="Список задач " Margin="100,210,100,230" VerticalAlignment="Center" Height="60" FontSize="24"  HorizontalAlignment="Center" Width="400" Click="Button_Click_2"/>
+        <Button x:Name="btn3" Content="Список исполнителей" Margin="100,275,100,165" VerticalAlignment="Center" Height="60" FontSize="24"  HorizontalAlignment="Center" Width="400" Click="Button_Click_3"/>
+
+    </Grid>
+</UserControl>
